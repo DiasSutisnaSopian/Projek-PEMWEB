@@ -1,0 +1,155 @@
+<!DOCTYPE html> 
+<html lang="id"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Penjualan Tiket Konser</title> 
+        <link rel="stylesheet" href="styles.css"> 
+    </head> 
+    <body> 
+    <!-- Header --> 
+     <header> 
+        <div class="logo"> 
+            <h1>TiketKonser</h1> 
+        </div> 
+        <nav> <ul class="menu"> 
+            <li><a href="#home">Beranda</a></li> 
+            <li><a href="#profile">Profil</a></li> <li><a href="#pricing">Harga</a></li> 
+            <li><a href="#order">Pesan Tiket</a></li> <li><a href="#login">Login</a></li>
+        </ul> 
+    </nav> 
+</header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Konser Terbesar Tahun Ini!</h2>
+            <p>Jangan lewatkan kesempatan untuk menonton konser terbaik di kota Anda!</p>
+            <img src="konser.jpeg" alt=""><br>
+            <a href="#order" class="cta-button">Pesan Tiket</a>
+        </div>
+    </section>
+    
+    <!-- Profil Usaha -->
+    <section id="profile" class="profile">
+        <div class="container">
+            <h2>Profil Usaha</h2>
+            <div class="profile-content">
+                <img src="https://img.freepik.com/free-photo/back-view-crowd-fans-watching-live-performance-music-concert-night-copy-space_637285-544.jpg?t=st=1732972543~exp=1732976143~hmac=755081d054c9ad915cce96c632febc30853e84f5ce8e44ff4787862637af1b7b&w=1060" alt="Profil Usaha">
+                <div>
+                    <h3>TiketKonser</h3>
+                    <p>TiketKonser adalah platform penjualan tiket konser yang menawarkan berbagai acara musik terbaik di seluruh Indonesia. Kami memudahkan Anda untuk membeli tiket dengan harga terbaik dan pengalaman yang memuaskan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Tabel Harga -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2>Harga Tiket</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tipe Tiket</th>
+                        <th>Harga</th>
+                        <th>Deskripsi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>VIP</td>
+                        <td>Rp 1.500.000</td>
+                        <td>Akses VIP dan kursi terbaik di konser</td>
+                    </tr>
+                    <tr>
+                        <td>Reguler</td>
+                        <td>Rp 500.000</td>
+                        <td>Kursi standar dengan pemandangan yang baik</td>
+                    </tr>
+                    <tr>
+                        <td>Ekonomis</td>
+                        <td>Rp 250.000</td>
+                        <td>Kursi dengan harga terjangkau namun tetap nyaman</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    
+    <!-- Form Pemesanan Tiket -->
+    <section id="order" class="order">
+        <div class="container">
+            <h2>Pemesanan Tiket</h2>
+            <form action="#" method="POST">
+                <input type="text" placeholder="Nama Lengkap" required>
+                <input type="email" placeholder="Email" required>
+                <select required>
+                    <option value="" disabled selected>Pilih Tipe Tiket</option>
+                    <option value="VIP">VIP</option>
+                    <option value="Reguler">Reguler</option>
+                    <option value="Ekonomis">Ekonomis</option>
+                </select>
+                <input type="date" required>
+                <button type="submit" class="cta-button">Pesan Tiket</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Login Section -->
+    <section id="login" class="login">
+        <div class="container">
+            <h2>Login</h2>
+            <form action="#" method="POST">
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit" class="cta-button">Login</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Social Media Info -->
+    <section class="social-media">
+        <div class="container">
+            <h2>Ikuti Kami</h2>
+            <div class="social-links">
+                <a href="#" class="social-link">Facebook</a>
+                <a href="#" class="social-link">Instagram</a>
+                <a href="#" class="social-link">Twitter</a>
+                <a href="#" class="social-link">YouTube</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Image Slider -->
+    <section class="slider">
+        <div class="slider-container">
+            <div class="slider-images">
+                <img src="https://img.freepik.com/free-psd/music-festival-banner-template_23-2148911142.jpg?t=st=1732972709~exp=1732976309~hmac=9b70c3614b1fc0044e44318ff55bd06e2216db5aa4c2dfdfbe303438d142ed00&w=1060" alt="Gambar 1">
+                <img src="https://img.freepik.com/free-vector/audience-silhouette-set_23-2147494410.jpg?t=st=1732972795~exp=1732976395~hmac=0f16fa84d811de3f2c7bc76a7561fc61dc2002b25fb31a2c638376b7ef444e38&w=740" alt="Gambar 2">
+                <img src="https://img.freepik.com/premium-photo/silhouette-hands-using-smartphones-take-pictures-videos-live-music-show_367038-306.jpg?w=900" alt="Gambar 3">
+            </div>
+        </div>
+    </section>
+    <!-- Profil Pengembang -->
+    <section class="developer-profile">
+        <div class="container">
+            <h2>Profil Pengembang</h2>
+            <div class="developer-content">
+                <img src="dias.jpg" alt="Pengembang">
+                <div>
+                    <h3>Dias Sutisna Sopian</h3>
+                    <p>Seorang pengembang web dengan pengalaman bertahun-tahun dalam membangun aplikasi e-commerce dan platform digital. Saya berkomitmen untuk membuat pengalaman pengguna yang luar biasa dan solusi yang efektif untuk bisnis online.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 TiketKonser. Semua hak dilindungi.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
